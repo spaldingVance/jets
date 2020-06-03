@@ -1,7 +1,6 @@
-var Rocket = function (color, size, hasHyperdrive) {
+var Rocket = function (color, size) {
   this.color = color;
   this.size = size;
-  this.hasHyperdrive = hasHyperdrive;
 }
 
-module.exports = Jet;
+module.exports = Rocket;
